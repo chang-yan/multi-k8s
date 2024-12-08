@@ -1,4 +1,7 @@
-sudo: required
+dist: jammy
+cache:
+  directories:
+    - $HOME/google-cloud-sdk
 services:
   - docker
 
